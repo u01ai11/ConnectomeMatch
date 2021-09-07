@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ConnectomeMatch
-Version: 0.0.1
+Version: 0.0.8
 Summary: Inexact graph matching and significance testing for groups of graphs
 Home-page: https://github.com/u01ai11/ConnectomeMatch
 Author: Alexander Anwyl-Irvine & Edwin Dalmaijer
@@ -13,6 +13,7 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
 
 # ConnectomeMatch
 Python implementation of preprocessing and significance testing with inexact graph matching accross a population. 

@@ -10,7 +10,7 @@ airvine1991@gmail.com
 """
 
 __all__ = ['calc_density', 'permute_connections', 'match_density', 'match_graphs_participant', 'match_graphs', 'permute_and_match', 'generate_null_dist']
-__version__ = '0.0.2'
+__version__ = '0.0.8'
 __author__ = 'Alex Anwyl-Irvine & Edwin Dalmaijer'
 
 import numpy as np
