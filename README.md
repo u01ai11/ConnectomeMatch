@@ -7,7 +7,9 @@ It also allows for multi-threading of the more consuming proccesses (density mat
 
 # Usage
 First install the package. 
-
+```
+pip install ConnectomeMatch
+```
 Then import 
 ```python
 import ConnectomeMatch as cm
@@ -37,7 +39,7 @@ A permutation function generates a null distribution of binary matches for the s
 This can then be compared to the average matching accuracy from binary matching matrices above
 ```python
 import numpy as np
-null = cm,generate_null_dist(sample_matrix, target_matrix,perms=100, njobs=4) # get null distribution
+null = cm.generate_null_dist(sample_matrix, target_matrix,perms=100, njobs=4) # get null distribution
 montecarlo_thresh = np.percentile(null, 0.95, axis=2) # get threshold values for matching matrix
 significance_mask = binary_matrices.mean(axis=0) > montecarlo_thresh # mask for all significant values
 ```
