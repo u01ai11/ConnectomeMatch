@@ -1,3 +1,19 @@
+Metadata-Version: 2.1
+Name: ConnectomeMatch
+Version: 0.0.1
+Summary: Inexact graph matching and significance testing for groups of graphs
+Home-page: https://github.com/u01ai11/ConnectomeMatch
+Author: Alexander Anwyl-Irvine & Edwin Dalmaijer
+Author-email: anwyl.irvine@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/u01ai11/ConnectomeMatch/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
 # ConnectomeMatch
 Python implementation of preprocessing and significance testing with inexact graph matching accross a population. 
 
@@ -41,3 +57,5 @@ null = cm,generate_null_dist(sample_matrix, target_matrix,perms=100, njobs=4) # 
 montecarlo_thresh = np.percentile(null, 0.95, axis=2) # get threshold values for matching matrix
 significance_mask = binary_matrices.mean(axis=0) > montecarlo_thresh # mask for all significant values
 ```
+
+
