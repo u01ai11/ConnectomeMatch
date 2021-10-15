@@ -1,9 +1,17 @@
 # ConnectomeMatch
-Python implementation of preprocessing and significance testing with inexact graph matching accross a population. 
+Python implementation of preprocessing and significance testing with inexact graph matching across a population. 
 
 This is a Python implementation built upon the techniques used in [Osmanlıoğlu et al (2019)](https://pubmed.ncbi.nlm.nih.gov/31141738/).
 
-It also allows for multi-threading of the more consuming proccesses (density matching and permutation testing).
+It also allows for multi-threading of the more consuming processes (density matching and permutation testing).
+
+## Cite
+
+If you use this in any work please cite the Zenodo record: 
+```
+Alexander Anwyl-Irvine, & Edwin Dalmaijer. (2021). u01ai11/ConnectomeMatch. Zenodo. https://doi.org/10.5281/zenodo.5572257
+```
+Up-to-date version is [here](https://doi.org/10.5281/zenodo.5572257)
 
 # Usage
 First install the package. 
